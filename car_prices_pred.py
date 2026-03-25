@@ -50,5 +50,5 @@ model.fit(X_train,y_train)
 y_pred = model.predict(X_test)
 # print(y_pred
 r2 = r2_score(y_test,y_pred)
-
+print("Model give the accuracy")
 print(r2)
